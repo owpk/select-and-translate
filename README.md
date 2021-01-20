@@ -1,6 +1,6 @@
 ### Translate selected text and send it to windows notification center
 
-<img src="https://github.com/vzvz4/dotfiles/blob/master/transl.git"/>
+<img src="https://github.com/vzvz4/dotfiles/blob/master/transl.gif"/>
 
 ### Installation Guide
 1. Make sure you have PowerShell installed
