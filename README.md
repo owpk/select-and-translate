@@ -28,7 +28,7 @@ $ cp * /usr/local/bin/
 Copy any text you want to translate and double click to run-en.vbs, notification with translated text should pop up.
 
 ### Additions
- - Copy "run-\*.vbs" files, instead of "en" in "lang = en" paste any language you want to translate the selected text.
+ - Copy "run-\*.vbs" file (for example run-en.vbs), instead of "en" in "lang = en" paste any language you want to translate the selected text.
 
  - Also you can bind execution of the tranlsation script to specific keys, i found this solution https://www.youtube.com/watch?v=tPcw-gDDVwo but it works a bit slow
 
