@@ -1,0 +1,33 @@
+###Translate selected text and send it to windows notification center
+
+###Installation Guide
+1. Make sure you have PowerShell installed
+    - You can check it, go to C:/Windows/System32/WindowsPowerShell/v1.0 and search for powershell.exe
+
+2. Make sure you have windows sub system linux (wsl) installed
+	- You can check it, go to C:/Windows/System32/ and search for wsl.exe,
+    see [installation guide](https://docs.microsoft.com/en-en/windows/wsl/install-win10) if needed.
+
+3. To send translated text to notify you have to install [BurntToast](https://github.com/Windos/BurntToast), should work fine just follow instructions. If some issues occures try to do this: 
+	 - Dont forget "unblock" the zip file before extracting the contents.
+	 - Open powershell and run this command "Import-Module BurntToast"  
+
+4. Download and unzip https://github.com/vzvz4/tranlsate-notify or 
+```
+$ git clone https://github.com/vzvz4/tranlsate-notify 
+```
+- run wsl.exe, go to the folder you just downloaded and copy "gclip", "pclip", "translator" and "notif" to /usr/local/bin/ directory
+- #####Step by step:
+```bash
+$ cd /mnt/c/'YOUR_PATH_TO_DOWNLOADS'/notify-translator/tools/
+$ cp * /usr/local/bin/
+```
+###Usage Guide
+Copy any text you want to translate and double click to run-en.vbs, notification with translated text should pop up.
+
+###Additions
+ - Edit any of the "ntf-en.bat" or "ntf-ru.bat" files, instead of "en" in "notif en" paste any language you want to translate the selected text.
+
+ - Also you can bind execution of the tranlsation script to specific keys, i found this solution https://www.youtube.com/watch?v=tPcw-gDDVwo but it works a bit slow
+
+ - Note that translated text copy to system clipboard so you can paste translation to where ever you want

@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+data=$(translator $1)
+/mnt/c/Windows/system32/WindowsPowerShell/v1.0/powershell.exe New-BurntToastNotification -Text "Translator", '"'"$data"'"'
+echo $data | pclip
