@@ -14,9 +14,9 @@
 	 - Dont forget "unblock" the zip file before extracting the contents.
 	 - Open powershell and run this command "Import-Module BurntToast"  
 
-4. Download and unzip https://github.com/vzvz4/selection-translator/releases/tag/0.0.1 or 
+4. Download and unzip https://github.com/vzvz4/select-and-translate/releases/tag/0.0.1 or 
 ```
-$ git clone https://github.com/vzvz4/tranlsate-notify 
+$ git clone https://github.com/vzvz4/select-and-translate 
 ```
 - run wsl.exe, go to the folder you just downloaded and copy "gclip", "pclip", "translator" and "notif" to /usr/local/bin/ directory
 - Step by step:
