@@ -1,8 +1,8 @@
-###Translate selected text and send it to windows notification center
+### Translate selected text and send it to windows notification center
 
-![](https://github.com/vzvz4/dotfiles/blob/master/transl.gif)
+<img src="https://github.com/vzvz4/dotfiles/blob/master/transl.git"/>
 
-###Installation Guide
+### Installation Guide
 1. Make sure you have PowerShell installed
     - You can check it, go to C:/Windows/System32/WindowsPowerShell/v1.0 and search for powershell.exe
 
@@ -14,7 +14,7 @@
 	 - Dont forget "unblock" the zip file before extracting the contents.
 	 - Open powershell and run this command "Import-Module BurntToast"  
 
-4. Download and unzip https://github.com/vzvz4/tranlsate-notify or 
+4. Download and unzip https://github.com/vzvz4/selection-translator/releases/tag/0.0.1 or 
 ```
 $ git clone https://github.com/vzvz4/tranlsate-notify 
 ```
@@ -24,14 +24,14 @@ $ git clone https://github.com/vzvz4/tranlsate-notify
 $ cd /mnt/c/'YOUR_PATH_TO_DOWNLOADS'/notify-translator/tools/
 $ cp * /usr/local/bin/
 ```
-###Usage Guide
+### Usage Guide
 Copy any text you want to translate and double click to run-en.vbs, notification with translated text should pop up.
 
-###Additions
+### Additions
  - Edit any of the "ntf-en.bat" or "ntf-ru.bat" files, instead of "en" in "notif en" paste any language you want to translate the selected text.
 
  - Also you can bind execution of the tranlsation script to specific keys, i found this solution https://www.youtube.com/watch?v=tPcw-gDDVwo but it works a bit slow
- 
-![](https://github.com/vzvz4/dotfiles/blob/master/transl-hotkey.gif)
+
+<img src="https://github.com/vzvz4/dotfiles/blob/master/transl-hotkey.gif"/>
 
  - Note that translated text copy to system clipboard so you can paste translation to where ever you want
