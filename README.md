@@ -1,5 +1,7 @@
 ###Translate selected text and send it to windows notification center
+
 ![Alt Text](https://github.com/vzvz4/dotfiles/blob/master/transl.gif)
+
 ###Installation Guide
 1. Make sure you have PowerShell installed
     - You can check it, go to C:/Windows/System32/WindowsPowerShell/v1.0 and search for powershell.exe
@@ -29,5 +31,7 @@ Copy any text you want to translate and double click to run-en.vbs, notification
  - Edit any of the "ntf-en.bat" or "ntf-ru.bat" files, instead of "en" in "notif en" paste any language you want to translate the selected text.
 
  - Also you can bind execution of the tranlsation script to specific keys, i found this solution https://www.youtube.com/watch?v=tPcw-gDDVwo but it works a bit slow
+
+ ![Alt Text](https://github.com/vzvz4/dotfiles/blob/master/transl-hotkey.gif)
 
  - Note that translated text copy to system clipboard so you can paste translation to where ever you want
