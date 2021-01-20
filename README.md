@@ -1,5 +1,5 @@
 ###Translate selected text and send it to windows notification center
-
+![Alt Text](https://github.com/vzvz4/dotfiles/blob/master/transl.gif)
 ###Installation Guide
 1. Make sure you have PowerShell installed
     - You can check it, go to C:/Windows/System32/WindowsPowerShell/v1.0 and search for powershell.exe
@@ -17,7 +17,7 @@
 $ git clone https://github.com/vzvz4/tranlsate-notify 
 ```
 - run wsl.exe, go to the folder you just downloaded and copy "gclip", "pclip", "translator" and "notif" to /usr/local/bin/ directory
-- #####Step by step:
+- Step by step:
 ```bash
 $ cd /mnt/c/'YOUR_PATH_TO_DOWNLOADS'/notify-translator/tools/
 $ cp * /usr/local/bin/
